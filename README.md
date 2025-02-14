@@ -1,0 +1,1 @@
+This example demonstrates a subtle bug in VBScript related to implicit type coercion and the use of ByRef parameters.  When a function modifies a ByRef parameter, VBScript's automatic type conversion can cause issues if the parameter's type changes.  The solution shows how to explicitly check the type and handle different scenarios.
